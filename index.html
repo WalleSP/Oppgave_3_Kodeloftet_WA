@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Mine Oppskrifter</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
+    <!-- Header and navbar -->
     <header>
-      <h1 class="headerTitle">Mine Oppskrifter</h1>
+      <h1 class="headerTitle">Velkommen til mine oppskrifter</h1>
       <nav>
         <ul class="navigation">
           <li>Pasta</li>
@@ -19,16 +20,60 @@
       </nav>
     </header>
     <main>
-      <!-- Ulike seksjoner -->
-      <section>
-        <!-- Hero-seksjonen -->
+      <!-- First section -->
+      <section class="heroSection">
+        <!-- Left box -->
+        <div class="leftBox">
+          <img class ="pasta" src="https://images.unsplash.com/photo-1619528395742-4e41ab87403b?q=80&w=2081&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="pasta">
+          <div class = "arrowText">
+            <p>Klikk her</p>
+            <span class="arrowSymbol">→</span>
+          </div>
+          <h2 class="titleBox">Fersk tortellini med blomkålpurè</h2>
+        </div>
+        <!-- Right box -->
+        <div class="rightBox">
+          <img class ="tomatoSoup" src="https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="tomato">
+          <div class = "arrowText">
+            <p>Klikk her</p>
+            <span class="arrowSymbol">→</span>
+          </div>
+          <h2 class="titleBox">Bakt tomatsuppe med surdeigstoast</h2>
+        </div>
       </section>
+      <!-- Second section -->
       <section>
-        <!-- Videre informasjon -->
+        <div class="section_2">
+          <div class="section_2_content">
+            <h1 class="section_2_title"> Matlaging og mitt kjøkken </h1>
+            <p class="section_2_text">Dette er en side om hjemmelagde retter med oppskrifter som jeg har blitt veldig glad i å lage.
+              Denne nettsiden vil inneholde gode retter som jeg har funnet og samlet opp. 
+              Rettene kan være enkle eller kompliserte og varighet kan variere veldig, men målet vil alltid være å lage noe som jeg elsker.
+              Oppskriftene kan være en kombinasjon av forskjellige oppskrifer som funker veldig fint med hverandre eller oppskrifter som bare smaker fantastisk.
+              Jeg liker alt mulig og liker å utforske ting fra pasta, brød og supper, til fisk, skalldyr og kjøtt. 
+              Med dette ønsker jeg å lage ting som enten man kan spise alene eller ha en fin middag med venner og familie.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Third section -->
+      <section>
+        <div class="images">
+          <div class="left_images">
+            <img class="ramen" src="https://images.unsplash.com/photo-1637024698421-533d83c7b883?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <img class="fish" src="https://images.unsplash.com/photo-1519233991914-26a44330ccd7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">        
+          </div>
+          <img class="lasagne" src="https://images.unsplash.com/photo-1625555897305-136548cc968c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
       </section>
     </main>
     <footer>
-      <!-- Kreditasjon, sosiale medier, kontaktinformasjon -->
+      <div class="footer_content">
+        <a href="https://github.com/WalleSP" target="mi">
+          <img class="github" src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="github">
+        </a>
+        <p class="signed">Designet av Walle</p>
+        </div>
     </footer>
   </body>
 </html>
